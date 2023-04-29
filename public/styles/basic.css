@@ -1,0 +1,81 @@
+:root{
+  --verde-claro: rgb(96, 108, 56);
+  --verde: rgb(40, 54, 24);
+  --verde-transparente: rgba(253, 253, 253, 0.349);
+  --naranja-claro: #DDA15E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Montserrat;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(40, 67, 40);
+    box-shadow: 0 4px 25px -22px #606c38;
+    z-index: 2;
+  }
+  
+  body {
+    line-height: 1.5;
+    font-family: "Poppins", "Montserrat";
+    max-width: 100svw;
+  }
+  
+  .header-content {
+    width: 100%;
+    padding-left: 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /*Parte principal de la pagina donde se encuentra el logo y el nombre de la pagina*/
+  
+  .logo {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo h1 b {
+    color: white;
+  }
+  
+  /*Menu de la pagina principal*/
+  
+  .menu {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .menu nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu nav ul li {
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  
+  .menu nav ul li a {
+    color: #f0eded;
+    transition: color 300ms;
+  }
