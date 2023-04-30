@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piniors</title>
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="/public/styles/dashboard.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
@@ -27,7 +27,7 @@
         </div>
         <div class="container-data cont">
             <div id="account-data" class="data">
-                <img src="/assets//bowl.jpg" width="250px" height="250px" alt="Foto de perfil">
+                <img src="/public/img/bowl.jpg" width="250px" height="250px" alt="Foto de perfil">
                 <h2>Desconocido</h2>
                 <div class="box-inp username">
                     <label for="name">Nombre de usuario</label>

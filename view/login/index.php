@@ -25,9 +25,9 @@
                 </div>
             </div>
             <p>or</p>
-            <form class="inputs-container">
-                <input class="input" type="text" placeholder="Username">
-                <input class="input" type="text" placeholder="Password">
+            <form class="inputs-container" method="POST" action="/login/login">
+                <input class="input" type="text" name="email" placeholder="Username">
+                <input class="input" type="text" name="password" placeholder="Password">
                 <p>Forgot password? <span class="span">Click here</span></p>
                 <button class="btn" id="btn-login">login</button>
                 <p>Don't have an account? <span class="span">Sign Up</span></p>
