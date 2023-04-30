@@ -4,7 +4,7 @@
   width: 100%;
   position: relative;
   margin-top: 0px;
-  background-image: url("/public/img/pinosss.jpeg");
+  background-image: url("../img/pinosss.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -157,8 +157,9 @@ h3 {
 .card1>.card{
   padding-top: 209px;
   background-image: url('../img/atardecer.jpeg');
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-color: #ffffffc5;
   background-blend-mode: darken;
   color: white;
@@ -166,6 +167,7 @@ h3 {
 .card2>.card{
   padding-top: 209px;
   background-image: url('../img/pensamiento_creativo.png');
+  background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   background-color: #ffffffc5;

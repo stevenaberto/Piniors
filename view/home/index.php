@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piniors</title>
-    <link rel="stylesheet" href="/public/styles/home.css">
+    <link rel="stylesheet" href="<?php echo constant("URL") ?>public/styles/home.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <link rel="shortcut icon" href="public/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo constant("URL") ?>public/favicon.svg" type="image/x-icon">
 </head>
 
 <body>
