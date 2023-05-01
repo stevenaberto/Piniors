@@ -25,13 +25,8 @@ class Login extends Controller
         extract($_POST);
 
         if ($this->model->selectUser([
-<<<<<<< HEAD
             'email' => $email,
             'password'=> md5($password)])) {
-=======
-            'email' => "chrisjoseph380@gmail.com", 
-            'password'=> md5("12345")])) {
->>>>>>> 5208665d3a1e88f530094ebf3a7129e10bb25aef
             echo "Bienvenido de nuevo";
             header("location:/dashboard");
         } else {

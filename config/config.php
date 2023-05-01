@@ -1,6 +1,6 @@
 <?php
 
-define("URL", "http://localhost/Piniors/");
+define("URL", "http://localhost:3000/");
 
 define('HOST', 'localhost');
 define("DB", "piniors");
