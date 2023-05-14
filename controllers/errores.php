@@ -1,9 +1,9 @@
 <?php
 
-class Errores{
+class Errores extends controller{
     function __construct()
     {
-        // parent::__construct();
-        echo '<h1 style="color:red">Pagina no encontrada</h1>';
+        parent::__construct();
+        $this->view->render("404");
     }
 }

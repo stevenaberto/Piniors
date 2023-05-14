@@ -26,7 +26,7 @@
                     <ul>
                         <li><a href="nosotros">Nosotros</a></li>
                         <li><a href="actividades">Actividades</a></li>
-                        <li><a href="login">Registrate</a></li>
+                        <li><a href="login">Inicia Sesion</a></li>
                     </ul>
                 </nav>
             </div>
@@ -41,7 +41,7 @@
             <p>Aprende y crea con la mejor experiencia para todos aquellos que desean aprender
                 con los cursos mas avanzados y las actividades mas dinamicas para ti.
             </p>
-            <a class="dclases" href="">Iniciar sesión</a>
+            <a class="dclases" href="registro">Registrate</a>
         </div>
         <div class="max-container">
             <div class="container card1">
