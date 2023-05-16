@@ -12,11 +12,12 @@ class Login extends Controller
     {
         extract($_POST);
 
-        if ($this->model->insert(['title' => $title, 
-        'banner'=> $banner, 
-        'descripcion'=>$descripcion,
-        "maestro"=>$maestro, 
-        'categoria'=>$categoria])) {
+        if ($this->model->insert
+        ([
+        'name' => $name, 
+        'username' => $username, 
+        'email'=> $email, 
+        'password'=>md5($password)])) {
             // echo "Nuevo curso creado";
         }
     }
@@ -25,10 +26,10 @@ class Login extends Controller
         extract($_POST);
 
         if ($this->model->selectUser([
-            'email' => $email,
+            'username' => $username,
             'password'=> md5($password)])) {
             echo "Bienvenido de nuevo";
-            header("location:/dashboard");
+            header("location: /home");
         } else {
             echo "Crea una cuenta";
         }
