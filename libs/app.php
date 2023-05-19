@@ -5,7 +5,8 @@
     {
         function __construct()
         {
-
+            session_start();
+            $_SESSION["level"] = 0;
             $url =  $_SERVER["REQUEST_URI"];
             $url = trim($url, "/");
             $url = explode("/", $url);
@@ -15,7 +16,7 @@
                 require_once $archivoController;
                 $controller = new Home();
                 $controller->loadModel('home');
-                return false;
+                exit();
             }
             $archivoController = 'controllers/' . $url[0] . '.php';
 

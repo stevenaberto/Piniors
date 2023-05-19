@@ -14,10 +14,22 @@
 }
 
 .cont{
+    display: none;
+    background-color: #ffffffc0;
+    backdrop-filter: blur(3px);
+    animation: 700ms growUp ease-out;
+}
+
+aside.cont{
+    display: grid;
     background-color: #ffffffc0;
     border-radius: 10px;
-    animation: 1500ms growUp ease-out;
+    animation: 700ms growUp ease-out;
     backdrop-filter: blur(3px);
+}
+
+#dash-main{
+    display: grid;
 }
 
 .panel{
@@ -37,6 +49,19 @@
     transition: all 100ms;
     color: black;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-nav:hover{
+    backdrop-filter: opacity(.6);
+    scale: .96;
+}
+
+.btn-nav.active{
+    background-color: #a4e1f4;
+    font-weight: 600;
+    box-shadow: 4px 3px 12px inset #fff;
+    opacity: .5;
 }
 
 ul{
@@ -108,4 +133,9 @@ input {
 }
 input:focus{
     outline: 2.5px solid#283618;
+}
+
+#main-dash{
+    display: grid;
+    place-items: center;
 }

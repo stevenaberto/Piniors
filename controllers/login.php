@@ -18,20 +18,22 @@ class Login extends Controller
         'username' => $username, 
         'email'=> $email, 
         'password'=>md5($password)])) {
-            // echo "Nuevo curso creado";
+            header("location: /dashboard");
         }
+        $_SESSION["level"] = 0;
     }
     function login()
     {
         extract($_POST);
-
+        
         if ($this->model->selectUser([
             'username' => $username,
             'password'=> md5($password)])) {
-            echo "Bienvenido de nuevo";
-            header("location: /home");
-        } else {
-            echo "Crea una cuenta";
+                echo "Bienvenido de nuevo";
+                header("location: /dashboard");
+                $_SESSION["level"] = 0;
+            } else {
+            header("location: /login");
         }
     }
 }
