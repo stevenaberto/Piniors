@@ -20,7 +20,6 @@ class Login extends Controller
         'password'=>md5($password)])) {
             header("location: /dashboard");
         }
-        $_SESSION["level"] = 0;
     }
     function login()
     {
@@ -31,9 +30,13 @@ class Login extends Controller
             'password'=> md5($password)])) {
                 echo "Bienvenido de nuevo";
                 header("location: /dashboard");
-                $_SESSION["level"] = 0;
             } else {
             header("location: /login");
         }
+    }
+
+    function logout(){
+        session_destroy();
+        header("location:/home");
     }
 }

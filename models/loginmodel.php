@@ -18,6 +18,10 @@ class loginModel extends Model
             'username' => $datos['username'], 
             'email' => $datos['email'], 
             'password' => $datos['password'],]);
+
+            $_SESSION["level"] = 0;
+            $_SESSION["username"] = $datos["username"];
+            $_SESSION["email"] = $datos["email"];
             return true;
         } catch (PDOException $e) {
             // echo $e->getMessage();
@@ -33,6 +37,10 @@ class loginModel extends Model
             $query = $this->db->connect()->prepare('SELECT username, password FROM users where username = :username and password = :password');
             $query->execute(["username"=>$username,"password" => $password]);
             $result = $query->fetch(PDO::FETCH_ASSOC);
+
+            $_SESSION["level"] = $result["level"];
+            $_SESSION["username"] = $datos["username"];
+
             return $query->rowCount() > 0;
         } catch (PDOException $e) {
             echo $e->getMessage();

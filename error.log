@@ -26,3 +26,23 @@ Stack trace:
   thrown in C:\xampp\htdocs\Piniors\libs\View.php on line 9
 [19-May-2023 12:38:07 UTC] Hello, errors!
 [19-May-2023 13:02:14 UTC] Hello, errors!
+[19-May-2023 13:19:32 UTC] Hello, errors!
+[19-May-2023 13:19:42 UTC] Hello, errors!
+[19-May-2023 13:21:30 UTC] Hello, errors!
+[19-May-2023 13:21:42 UTC] Hello, errors!
+[19-May-2023 13:21:47 UTC] Hello, errors!
+[19-May-2023 13:21:52 UTC] Hello, errors!
+[19-May-2023 13:22:02 UTC] Hello, errors!
+[19-May-2023 13:22:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Piniors\models\loginmodel.php on line 41
+[19-May-2023 13:22:02 UTC] PHP Warning:  Undefined array key "email" in C:\xampp\htdocs\Piniors\models\loginmodel.php on line 43
+[19-May-2023 13:22:02 UTC] Hello, errors!
+[19-May-2023 13:22:43 UTC] Hello, errors!
+[19-May-2023 13:22:47 UTC] Hello, errors!
+[19-May-2023 13:22:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Piniors\models\loginmodel.php on line 41
+[19-May-2023 13:22:47 UTC] Hello, errors!
+[19-May-2023 13:23:34 UTC] Hello, errors!
+[19-May-2023 13:23:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Piniors\models\loginmodel.php on line 41
+[19-May-2023 13:23:34 UTC] Hello, errors!
+[19-May-2023 13:23:44 UTC] Hello, errors!
+[19-May-2023 13:24:06 UTC] Hello, errors!
+[19-May-2023 13:24:07 UTC] Hello, errors!

@@ -23,7 +23,7 @@
                 <li class="btn-nav" data-page="password">Cambiar contraseña</li>
                 <li class="btn-nav" data-page="actividades">Actividades</li>
                 <div class="last-btn">
-                    <li class="btn-nav close-account">Cerrar cuenta</li>
+                    <a class="btn-nav close-account" href="/login/logout">Cerrar cuenta</a>
                 </div>
             </ul>
         </aside>

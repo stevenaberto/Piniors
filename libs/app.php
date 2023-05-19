@@ -6,7 +6,6 @@
         function __construct()
         {
             session_start();
-            $_SESSION["level"] = 0;
             $url =  $_SERVER["REQUEST_URI"];
             $url = trim($url, "/");
             $url = explode("/", $url);
