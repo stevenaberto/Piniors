@@ -34,7 +34,7 @@ class loginModel extends Model
         extract($datos);
         // insertar datos en la BD
         try {
-            $query = $this->db->connect()->prepare('SELECT username, password FROM users where username = :username and password = :password');
+            $query = $this->db->connect()->prepare('SELECT username, password, level FROM users where username = :username and password = :password');
             $query->execute(["username"=>$username,"password" => $password]);
             $result = $query->fetch(PDO::FETCH_ASSOC);
 

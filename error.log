@@ -46,3 +46,26 @@ Stack trace:
 [19-May-2023 13:23:44 UTC] Hello, errors!
 [19-May-2023 13:24:06 UTC] Hello, errors!
 [19-May-2023 13:24:07 UTC] Hello, errors!
+[19-May-2023 13:34:07 UTC] Hello, errors!
+[19-May-2023 13:34:08 UTC] Hello, errors!
+[19-May-2023 13:34:55 UTC] Hello, errors!
+[19-May-2023 13:34:55 UTC] Hello, errors!
+[19-May-2023 13:34:55 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[19-May-2023 13:34:59 UTC] Hello, errors!
+[19-May-2023 13:34:59 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[19-May-2023 13:36:29 UTC] Hello, errors!
+[19-May-2023 13:36:29 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[19-May-2023 13:37:32 UTC] Hello, errors!
+[19-May-2023 13:37:32 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[19-May-2023 13:37:45 UTC] Hello, errors!
+[19-May-2023 13:37:45 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[19-May-2023 13:37:52 UTC] Hello, errors!
+[19-May-2023 13:37:52 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[19-May-2023 13:37:52 UTC] Hello, errors!
+[19-May-2023 13:38:03 UTC] Hello, errors!
+[19-May-2023 13:38:03 UTC] Hello, errors!
+[19-May-2023 13:38:03 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[19-May-2023 13:38:08 UTC] Hello, errors!
+[19-May-2023 13:38:08 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[19-May-2023 13:38:12 UTC] Hello, errors!
+[19-May-2023 13:38:12 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10

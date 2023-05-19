@@ -14,7 +14,7 @@
 
 define("URL", "https://piniors.com/");
 
-define('HOST', 'localhost');
+define('HOST', '154.49.245.52');
 define("DB", "u896345182_Piniors");
 define("USER", "u896345182_root");
 define("PASSWORD", "M+Ye@42fq2p");

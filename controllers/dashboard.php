@@ -5,6 +5,7 @@ class Dashboard extends Controller
     function __construct()
     {
         parent::__construct();
-        $this->view->render("dashboard",1);
+        if(isset($_SESSION["username"])) $this->view->render("dashboard");
+        else $this->view->render("login");
     }
 }
