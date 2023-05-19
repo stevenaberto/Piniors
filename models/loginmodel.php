@@ -12,12 +12,12 @@ class loginModel extends Model
     {
         // insertar datos en la BD
         try {
-            $query = $this->db->connect()->prepare('INSERT INTO `cursos`(`Titulo`, `Banner`, `Descripcion`, `id_Maestro`, `id_categoria`) VALUES (:titulo, :banner, :Descripcion, :id_Maestro, :id_categoria)');
-            $query->execute(['titulo' => $datos['title'], 
-            'banner' => $datos['banner'], 
-            'Descripcion' => $datos['descripcion'],
-            'id_Maestro' => $datos['maestro'],
-            'id_categoria' => $datos['categoria']]);
+            $query = $this->db->connect()->prepare('INSERT INTO `users`( `name`,`username`, `email`, `password`) VALUES (:name ,:username, :email, :password)');
+            $query->execute([
+            'name' => $datos['name'], 
+            'username' => $datos['username'], 
+            'email' => $datos['email'], 
+            'password' => $datos['password'],]);
             return true;
         } catch (PDOException $e) {
             // echo $e->getMessage();
@@ -30,8 +30,8 @@ class loginModel extends Model
         extract($datos);
         // insertar datos en la BD
         try {
-            $query = $this->db->connect()->prepare('SELECT email, password FROM users where email = :email and password = :password');
-            $query->execute(["email"=>$email,"password" => $password]);
+            $query = $this->db->connect()->prepare('SELECT username, password FROM users where username = :username and password = :password');
+            $query->execute(["username"=>$username,"password" => $password]);
             $result = $query->fetch(PDO::FETCH_ASSOC);
             return $query->rowCount() > 0;
         } catch (PDOException $e) {
