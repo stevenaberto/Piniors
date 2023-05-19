@@ -10,6 +10,12 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="shortcut icon" href="<?php echo constant("URL") ?>public/favicon.svg" type="image/x-icon">
+    <meta property="og:title" content="Piniors">
+<meta property="og:type" content="page" />
+<meta property="og:description" content="No seas un pino para siempre!">
+<meta property="og:image" content="https://piniors.com/public/img/DarkLogoLogo.png">
+<meta property="og:url" content="https://piniors.com/">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body>

@@ -12,10 +12,10 @@
 
 //Claves de produccion
 
-define("URL", "http://piniors.com/");
+define("URL", "https://piniors.com/");
 
 define('HOST', 'localhost');
 define("DB", "u896345182_Piniors");
-define("USER", "root");
+define("USER", "u896345182_root");
 define("PASSWORD", "M+Ye@42fq2p");
 define("CHARSET", "utf8mb4");

@@ -16,7 +16,7 @@
         <img src="public/img/img1.svg" alt="">
         <h1>La página que ha solicitado no se encuentra disponible</h1>
         <div class="boton">
-           <a href="http:home"> <button name="submit">Volver atras</button></a>
+           <a href="/home"> <button name="submit">Volver atras</button></a>
         </div>
     </div>
 
