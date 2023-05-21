@@ -1,205 +1,190 @@
-[21-May-2023 05:55:22 UTC] Hello, errors!
-[21-May-2023 05:55:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in C:\xampp\htdocs\Piniors\view\quiz\admin\conexion.php:9
-Stack trace:
-#0 C:\xampp\htdocs\Piniors\view\quiz\admin\funciones.php(113): include()
-#1 C:\xampp\htdocs\Piniors\view\quiz\index.php(8): aumentarVisita()
-#2 C:\xampp\htdocs\Piniors\libs\View.php(11): include_once('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\Piniors\controllers\quiz.php(11): View->render('quiz/index')
-#4 C:\xampp\htdocs\Piniors\libs\app.php(28): Quiz->home()
-#5 C:\xampp\htdocs\Piniors\index.php(22): App->__construct()
-#6 {main}
-  thrown in C:\xampp\htdocs\Piniors\view\quiz\admin\conexion.php on line 9
-[21-May-2023 05:55:46 UTC] Hello, errors!
-[21-May-2023 05:55:54 UTC] Hello, errors!
-[21-May-2023 05:56:03 UTC] Hello, errors!
-[21-May-2023 05:56:03 UTC] PHP Warning:  include_once(view/blog/index.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\Piniors\libs\View.php on line 11
-[21-May-2023 05:56:03 UTC] PHP Warning:  include_once(): Failed opening 'view/blog/index.php' for inclusion (include_path='.;C:\php\pear') in C:\xampp\htdocs\Piniors\libs\View.php on line 11
-[21-May-2023 05:56:10 UTC] Hello, errors!
-[21-May-2023 05:56:18 UTC] Hello, errors!
-[21-May-2023 05:56:18 UTC] Hello, errors!
-[21-May-2023 05:56:18 UTC] Hello, errors!
-[21-May-2023 05:56:21 UTC] Hello, errors!
-[21-May-2023 05:56:35 UTC] Hello, errors!
-[21-May-2023 05:56:35 UTC] Hello, errors!
-[21-May-2023 05:56:35 UTC] Hello, errors!
-[21-May-2023 05:56:39 UTC] Hello, errors!
-[21-May-2023 06:21:29 UTC] Hello, errors!
-[21-May-2023 06:21:29 UTC] Hello, errors!
-[21-May-2023 06:21:29 UTC] Hello, errors!
-[21-May-2023 06:21:33 UTC] Hello, errors!
-[21-May-2023 06:21:36 UTC] Hello, errors!
-[21-May-2023 06:21:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Quiz::admin() in C:\xampp\htdocs\Piniors\libs\app.php:28
-Stack trace:
-#0 C:\xampp\htdocs\Piniors\index.php(22): App->__construct()
-#1 {main}
-  thrown in C:\xampp\htdocs\Piniors\libs\app.php on line 28
-[21-May-2023 06:22:25 UTC] Hello, errors!
-[21-May-2023 06:22:25 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\Piniors\view\admin\/login on line 2
-[21-May-2023 06:23:15 UTC] Hello, errors!
-[21-May-2023 06:23:15 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\Piniors\view\admin\/login on line 2
-[21-May-2023 06:23:17 UTC] Hello, errors!
-[21-May-2023 06:23:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Quiz::admin() in C:\xampp\htdocs\Piniors\libs\app.php:28
-Stack trace:
-#0 C:\xampp\htdocs\Piniors\index.php(22): App->__construct()
-#1 {main}
-  thrown in C:\xampp\htdocs\Piniors\libs\app.php on line 28
-[21-May-2023 06:23:21 UTC] Hello, errors!
-[21-May-2023 06:23:22 UTC] Hello, errors!
-[21-May-2023 06:23:25 UTC] Hello, errors!
-[21-May-2023 06:23:25 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\Piniors\view\admin\/login on line 2
-[21-May-2023 06:23:28 UTC] Hello, errors!
-[21-May-2023 06:26:15 UTC] Hello, errors!
-[21-May-2023 06:26:17 UTC] Hello, errors!
-[21-May-2023 06:26:40 UTC] Hello, errors!
-[21-May-2023 06:28:27 UTC] Hello, errors!
-[21-May-2023 06:28:30 UTC] Hello, errors!
-[21-May-2023 06:28:33 UTC] Hello, errors!
-[21-May-2023 06:29:10 UTC] Hello, errors!
-[21-May-2023 06:29:13 UTC] Hello, errors!
-[21-May-2023 06:30:15 UTC] Hello, errors!
-[21-May-2023 06:30:29 UTC] Hello, errors!
-[21-May-2023 06:30:33 UTC] Hello, errors!
-[21-May-2023 06:31:13 UTC] Hello, errors!
-[21-May-2023 06:31:25 UTC] Hello, errors!
-[21-May-2023 06:31:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Quiz::jugar() in C:\xampp\htdocs\Piniors\libs\app.php:28
-Stack trace:
-#0 C:\xampp\htdocs\Piniors\index.php(22): App->__construct()
-#1 {main}
-  thrown in C:\xampp\htdocs\Piniors\libs\app.php on line 28
-[21-May-2023 06:32:06 UTC] Hello, errors!
-[21-May-2023 06:33:01 UTC] Hello, errors!
-[21-May-2023 06:33:15 UTC] Hello, errors!
-[21-May-2023 06:34:44 UTC] Hello, errors!
-[21-May-2023 06:34:51 UTC] Hello, errors!
-[21-May-2023 06:35:00 UTC] Hello, errors!
-[21-May-2023 06:35:00 UTC] Hello, errors!
-[21-May-2023 06:35:01 UTC] PHP Fatal error:  Cannot redeclare obtenerConfiguracion() (previously declared in C:\xampp\htdocs\Piniors\view\quiz\admin\funciones.php:5) in C:\xampp\htdocs\Piniors\view\quiz\admin\funciones.php on line 3
-[21-May-2023 06:35:04 UTC] Hello, errors!
-[21-May-2023 06:35:05 UTC] Hello, errors!
-[21-May-2023 06:35:05 UTC] PHP Fatal error:  Cannot redeclare obtenerConfiguracion() (previously declared in C:\xampp\htdocs\Piniors\view\quiz\admin\funciones.php:5) in C:\xampp\htdocs\Piniors\view\quiz\admin\funciones.php on line 3
-[21-May-2023 06:37:00 UTC] Hello, errors!
-[21-May-2023 06:37:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Quiz::__construct(), 0 passed in C:\xampp\htdocs\Piniors\libs\app.php on line 24 and exactly 1 expected in C:\xampp\htdocs\Piniors\controllers\quiz.php:6
-Stack trace:
-#0 C:\xampp\htdocs\Piniors\libs\app.php(24): Quiz->__construct()
-#1 C:\xampp\htdocs\Piniors\index.php(22): App->__construct()
-#2 {main}
-  thrown in C:\xampp\htdocs\Piniors\controllers\quiz.php on line 6
-[21-May-2023 06:37:06 UTC] Hello, errors!
-[21-May-2023 06:37:33 UTC] Hello, errors!
-[21-May-2023 06:39:42 UTC] Hello, errors!
-[21-May-2023 06:39:45 UTC] Hello, errors!
-[21-May-2023 06:42:26 UTC] Hello, errors!
-[21-May-2023 06:54:31 UTC] Hello, errors!
-[21-May-2023 06:54:52 UTC] Hello, errors!
-[21-May-2023 06:54:59 UTC] Hello, errors!
-[21-May-2023 06:54:59 UTC] Hello, errors!
-[21-May-2023 06:55:46 UTC] Hello, errors!
-[21-May-2023 06:55:59 UTC] Hello, errors!
-[21-May-2023 06:56:18 UTC] Hello, errors!
-[21-May-2023 06:56:39 UTC] Hello, errors!
-[21-May-2023 06:56:42 UTC] Hello, errors!
-[21-May-2023 06:56:45 UTC] Hello, errors!
-[21-May-2023 06:56:55 UTC] Hello, errors!
-[21-May-2023 06:58:57 UTC] Hello, errors!
-[21-May-2023 06:59:41 UTC] Hello, errors!
-[21-May-2023 07:00:41 UTC] Hello, errors!
-[21-May-2023 07:01:35 UTC] Hello, errors!
-[21-May-2023 07:01:45 UTC] Hello, errors!
-[21-May-2023 07:03:32 UTC] Hello, errors!
-[21-May-2023 07:03:44 UTC] Hello, errors!
-[21-May-2023 07:03:44 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Admin::__construct(), 0 passed in C:\xampp\htdocs\Piniors\libs\app.php on line 24 and exactly 1 expected in C:\xampp\htdocs\Piniors\controllers\admin.php:6
-Stack trace:
-#0 C:\xampp\htdocs\Piniors\libs\app.php(24): Admin->__construct()
-#1 C:\xampp\htdocs\Piniors\index.php(22): App->__construct()
-#2 {main}
-  thrown in C:\xampp\htdocs\Piniors\controllers\admin.php on line 6
-[21-May-2023 07:03:58 UTC] Hello, errors!
-[21-May-2023 07:03:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Admin::__construct(), 0 passed in C:\xampp\htdocs\Piniors\libs\app.php on line 24 and exactly 1 expected in C:\xampp\htdocs\Piniors\controllers\admin.php:6
-Stack trace:
-#0 C:\xampp\htdocs\Piniors\libs\app.php(24): Admin->__construct()
-#1 C:\xampp\htdocs\Piniors\index.php(22): App->__construct()
-#2 {main}
-  thrown in C:\xampp\htdocs\Piniors\controllers\admin.php on line 6
-[21-May-2023 07:04:00 UTC] Hello, errors!
-[21-May-2023 07:04:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Admin::__construct(), 0 passed in C:\xampp\htdocs\Piniors\libs\app.php on line 24 and exactly 1 expected in C:\xampp\htdocs\Piniors\controllers\admin.php:6
-Stack trace:
-#0 C:\xampp\htdocs\Piniors\libs\app.php(24): Admin->__construct()
-#1 C:\xampp\htdocs\Piniors\index.php(22): App->__construct()
-#2 {main}
-  thrown in C:\xampp\htdocs\Piniors\controllers\admin.php on line 6
-[21-May-2023 07:04:01 UTC] Hello, errors!
-[21-May-2023 07:04:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Admin::__construct(), 0 passed in C:\xampp\htdocs\Piniors\libs\app.php on line 24 and exactly 1 expected in C:\xampp\htdocs\Piniors\controllers\admin.php:6
-Stack trace:
-#0 C:\xampp\htdocs\Piniors\libs\app.php(24): Admin->__construct()
-#1 C:\xampp\htdocs\Piniors\index.php(22): App->__construct()
-#2 {main}
-  thrown in C:\xampp\htdocs\Piniors\controllers\admin.php on line 6
-[21-May-2023 07:04:23 UTC] Hello, errors!
-[21-May-2023 07:04:31 UTC] Hello, errors!
-[21-May-2023 07:05:21 UTC] Hello, errors!
-[21-May-2023 07:05:33 UTC] Hello, errors!
-[21-May-2023 07:05:38 UTC] Hello, errors!
-[21-May-2023 07:05:38 UTC] Hello, errors!
-[21-May-2023 07:05:38 UTC] PHP Fatal error:  Cannot redeclare obtenerConfiguracion() (previously declared in C:\xampp\htdocs\Piniors\view\quiz\admin\funciones.php:5) in C:\xampp\htdocs\Piniors\view\quiz\admin\funciones.php on line 3
-[21-May-2023 07:06:43 UTC] Hello, errors!
-[21-May-2023 07:06:43 UTC] PHP Warning:  Undefined variable $url in C:\xampp\htdocs\Piniors\controllers\quiz.php on line 8
-[21-May-2023 07:06:49 UTC] Hello, errors!
-[21-May-2023 07:06:49 UTC] PHP Warning:  Undefined variable $url in C:\xampp\htdocs\Piniors\controllers\quiz.php on line 8
-[21-May-2023 07:07:58 UTC] Hello, errors!
-[21-May-2023 07:08:01 UTC] Hello, errors!
-[21-May-2023 07:08:01 UTC] Hello, errors!
-[21-May-2023 07:08:50 UTC] Hello, errors!
-[21-May-2023 07:08:56 UTC] Hello, errors!
-[21-May-2023 07:08:57 UTC] PHP Warning:  Undefined array key "usuarioLogeado" in C:\xampp\htdocs\Piniors\view\admin\index.php on line 5
-[21-May-2023 07:09:11 UTC] Hello, errors!
-[21-May-2023 07:09:21 UTC] Hello, errors!
-[21-May-2023 07:09:21 UTC] PHP Warning:  Undefined array key "usuarioLogeado" in C:\xampp\htdocs\Piniors\view\admin\index.php on line 5
-[21-May-2023 07:09:27 UTC] Hello, errors!
-[21-May-2023 07:09:29 UTC] Hello, errors!
-[21-May-2023 07:09:35 UTC] Hello, errors!
-[21-May-2023 07:09:35 UTC] PHP Warning:  Undefined array key "usuarioLogeado" in C:\xampp\htdocs\Piniors\view\admin\index.php on line 5
-[21-May-2023 07:12:07 UTC] Hello, errors!
-[21-May-2023 07:12:19 UTC] Hello, errors!
-[21-May-2023 07:12:19 UTC] PHP Warning:  Undefined array key "usuarioLogeado" in C:\xampp\htdocs\Piniors\view\admin\index.php on line 5
-[21-May-2023 07:12:20 UTC] Hello, errors!
-[21-May-2023 12:22:45 UTC] Hello, errors!
-[21-May-2023 12:23:11 UTC] Hello, errors!
-[21-May-2023 12:23:23 UTC] Hello, errors!
-[21-May-2023 12:23:28 UTC] Hello, errors!
-[21-May-2023 12:23:55 UTC] Hello, errors!
-[21-May-2023 12:24:02 UTC] Hello, errors!
-[21-May-2023 12:24:10 UTC] Hello, errors!
-[21-May-2023 12:24:20 UTC] Hello, errors!
-[21-May-2023 12:24:34 UTC] Hello, errors!
-[21-May-2023 12:24:43 UTC] Hello, errors!
-[21-May-2023 12:24:58 UTC] Hello, errors!
-[21-May-2023 12:25:29 UTC] Hello, errors!
-[21-May-2023 12:25:55 UTC] Hello, errors!
-[21-May-2023 12:26:17 UTC] Hello, errors!
-[21-May-2023 12:27:10 UTC] Hello, errors!
-[21-May-2023 12:27:31 UTC] Hello, errors!
-[21-May-2023 12:27:57 UTC] Hello, errors!
-[21-May-2023 12:38:18 UTC] Hello, errors!
-[21-May-2023 12:38:18 UTC] Hello, errors!
-[21-May-2023 12:38:21 UTC] Hello, errors!
-[21-May-2023 12:41:43 UTC] Hello, errors!
-[21-May-2023 12:42:00 UTC] Hello, errors!
-[21-May-2023 12:42:11 UTC] Hello, errors!
-[21-May-2023 12:44:32 UTC] Hello, errors!
-[21-May-2023 12:44:45 UTC] Hello, errors!
-[21-May-2023 12:44:48 UTC] Hello, errors!
-[21-May-2023 12:45:04 UTC] Hello, errors!
-[21-May-2023 12:45:16 UTC] Hello, errors!
-[21-May-2023 12:45:21 UTC] Hello, errors!
-[21-May-2023 12:45:57 UTC] Hello, errors!
-[21-May-2023 12:46:14 UTC] Hello, errors!
-[21-May-2023 13:23:33 UTC] Hello, errors!
-[21-May-2023 13:23:45 UTC] Hello, errors!
-[21-May-2023 13:24:01 UTC] Hello, errors!
-[21-May-2023 13:25:43 UTC] Hello, errors!
-[21-May-2023 13:27:26 UTC] Hello, errors!
-[21-May-2023 13:31:48 UTC] Hello, errors!
-[21-May-2023 13:32:43 UTC] Hello, errors!
-[21-May-2023 13:32:57 UTC] Hello, errors!
-[21-May-2023 13:33:07 UTC] Hello, errors!
-[21-May-2023 13:33:17 UTC] Hello, errors!
+[21-May-2023 17:09:01 UTC] Hello, errors!
+[21-May-2023 17:10:06 UTC] Hello, errors!
+[21-May-2023 17:10:24 UTC] Hello, errors!
+[21-May-2023 17:11:16 UTC] Hello, errors!
+[21-May-2023 17:11:25 UTC] Hello, errors!
+[21-May-2023 17:12:41 UTC] Hello, errors!
+[21-May-2023 17:13:06 UTC] Hello, errors!
+[21-May-2023 17:13:36 UTC] Hello, errors!
+[21-May-2023 17:13:57 UTC] Hello, errors!
+[21-May-2023 17:14:12 UTC] Hello, errors!
+[21-May-2023 17:14:34 UTC] Hello, errors!
+[21-May-2023 17:16:21 UTC] Hello, errors!
+[21-May-2023 17:16:27 UTC] Hello, errors!
+[21-May-2023 17:16:50 UTC] Hello, errors!
+[21-May-2023 17:18:09 UTC] Hello, errors!
+[21-May-2023 17:18:48 UTC] Hello, errors!
+[21-May-2023 17:18:48 UTC] Hello, errors!
+[21-May-2023 17:18:48 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 17:18:50 UTC] Hello, errors!
+[21-May-2023 17:18:50 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 17:18:59 UTC] Hello, errors!
+[21-May-2023 17:18:59 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 17:19:01 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Piniors\models\loginmodel.php on line 42
+[21-May-2023 17:19:01 UTC] Hello, errors!
+[21-May-2023 17:19:01 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 17:20:00 UTC] Hello, errors!
+[21-May-2023 17:20:00 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 17:20:11 UTC] Hello, errors!
+[21-May-2023 17:20:11 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 17:26:12 UTC] Hello, errors!
+[21-May-2023 17:26:12 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 17:26:13 UTC] Hello, errors!
+[21-May-2023 17:26:13 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 17:26:20 UTC] Hello, errors!
+[21-May-2023 17:26:20 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 17:26:20 UTC] PHP Warning:  include_once(view/blog/index.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\Piniors\libs\View.php on line 11
+[21-May-2023 17:26:20 UTC] PHP Warning:  include_once(): Failed opening 'view/blog/index.php' for inclusion (include_path='.;C:\php\pear') in C:\xampp\htdocs\Piniors\libs\View.php on line 11
+[21-May-2023 17:26:23 UTC] Hello, errors!
+[21-May-2023 17:26:23 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 17:26:34 UTC] Hello, errors!
+[21-May-2023 17:26:34 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 17:26:39 UTC] Hello, errors!
+[21-May-2023 17:26:39 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 17:26:43 UTC] Hello, errors!
+[21-May-2023 17:26:43 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 17:26:46 UTC] Hello, errors!
+[21-May-2023 17:26:46 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:12:18 UTC] Hello, errors!
+[21-May-2023 18:12:18 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:15:56 UTC] Hello, errors!
+[21-May-2023 18:15:56 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:16:45 UTC] Hello, errors!
+[21-May-2023 18:16:45 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:17:58 UTC] Hello, errors!
+[21-May-2023 18:17:58 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:19:11 UTC] Hello, errors!
+[21-May-2023 18:19:11 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:21:03 UTC] Hello, errors!
+[21-May-2023 18:21:03 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:21:14 UTC] Hello, errors!
+[21-May-2023 18:21:14 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:21:22 UTC] Hello, errors!
+[21-May-2023 18:21:22 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:21:30 UTC] Hello, errors!
+[21-May-2023 18:21:30 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:22:19 UTC] Hello, errors!
+[21-May-2023 18:22:19 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:23:50 UTC] Hello, errors!
+[21-May-2023 18:23:50 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:24:50 UTC] Hello, errors!
+[21-May-2023 18:24:50 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:25:15 UTC] Hello, errors!
+[21-May-2023 18:25:15 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:25:47 UTC] Hello, errors!
+[21-May-2023 18:25:47 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:25:57 UTC] Hello, errors!
+[21-May-2023 18:25:57 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:25:58 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Piniors\models\loginmodel.php on line 42
+[21-May-2023 18:25:58 UTC] Hello, errors!
+[21-May-2023 18:25:58 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:27:19 UTC] Hello, errors!
+[21-May-2023 18:27:19 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:27:46 UTC] Hello, errors!
+[21-May-2023 18:27:46 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:27:59 UTC] Hello, errors!
+[21-May-2023 18:27:59 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 18:28:11 UTC] Hello, errors!
+[21-May-2023 18:28:11 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:37:10 UTC] Hello, errors!
+[21-May-2023 19:37:10 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:37:10 UTC] Hello, errors!
+[21-May-2023 19:37:10 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:37:34 UTC] Hello, errors!
+[21-May-2023 19:37:35 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:37:35 UTC] Hello, errors!
+[21-May-2023 19:37:35 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:37:48 UTC] Hello, errors!
+[21-May-2023 19:37:48 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:41:01 UTC] Hello, errors!
+[21-May-2023 19:41:01 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:41:09 UTC] Hello, errors!
+[21-May-2023 19:41:09 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:41:10 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Piniors\models\loginmodel.php on line 42
+[21-May-2023 19:41:10 UTC] Hello, errors!
+[21-May-2023 19:41:10 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:41:17 UTC] Hello, errors!
+[21-May-2023 19:41:17 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:41:17 UTC] Hello, errors!
+[21-May-2023 19:41:17 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:41:21 UTC] Hello, errors!
+[21-May-2023 19:41:21 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:41:34 UTC] Hello, errors!
+[21-May-2023 19:41:34 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:41:34 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Piniors\models\loginmodel.php on line 42
+[21-May-2023 19:41:34 UTC] Hello, errors!
+[21-May-2023 19:41:34 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:45:26 UTC] Hello, errors!
+[21-May-2023 19:45:26 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:46:14 UTC] Hello, errors!
+[21-May-2023 19:46:14 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:46:56 UTC] Hello, errors!
+[21-May-2023 19:46:56 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:47:34 UTC] Hello, errors!
+[21-May-2023 19:47:34 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:48:18 UTC] Hello, errors!
+[21-May-2023 19:48:18 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:48:31 UTC] Hello, errors!
+[21-May-2023 19:48:31 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:48:53 UTC] Hello, errors!
+[21-May-2023 19:48:53 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:49:39 UTC] Hello, errors!
+[21-May-2023 19:49:39 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:51:57 UTC] Hello, errors!
+[21-May-2023 19:51:57 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:52:23 UTC] Hello, errors!
+[21-May-2023 19:52:23 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:57:28 UTC] Hello, errors!
+[21-May-2023 19:57:28 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:57:45 UTC] Hello, errors!
+[21-May-2023 19:57:45 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 19:58:18 UTC] Hello, errors!
+[21-May-2023 19:58:18 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:04:17 UTC] Hello, errors!
+[21-May-2023 20:04:17 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:05:53 UTC] Hello, errors!
+[21-May-2023 20:05:53 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:06:33 UTC] Hello, errors!
+[21-May-2023 20:06:33 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:07:10 UTC] Hello, errors!
+[21-May-2023 20:07:10 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:07:20 UTC] Hello, errors!
+[21-May-2023 20:07:20 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:07:33 UTC] Hello, errors!
+[21-May-2023 20:07:33 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:07:47 UTC] Hello, errors!
+[21-May-2023 20:07:47 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:07:53 UTC] Hello, errors!
+[21-May-2023 20:07:53 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:09:05 UTC] Hello, errors!
+[21-May-2023 20:09:05 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:10:02 UTC] Hello, errors!
+[21-May-2023 20:10:02 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:10:17 UTC] Hello, errors!
+[21-May-2023 20:10:17 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:10:32 UTC] Hello, errors!
+[21-May-2023 20:10:32 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:18:20 UTC] Hello, errors!
+[21-May-2023 20:18:20 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:18:41 UTC] Hello, errors!
+[21-May-2023 20:18:41 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:19:04 UTC] Hello, errors!
+[21-May-2023 20:19:04 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:20:33 UTC] Hello, errors!
+[21-May-2023 20:20:33 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:20:54 UTC] Hello, errors!
+[21-May-2023 20:20:54 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:21:08 UTC] Hello, errors!
+[21-May-2023 20:21:08 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:27:32 UTC] Hello, errors!
+[21-May-2023 20:27:32 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:27:53 UTC] Hello, errors!
+[21-May-2023 20:27:53 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:28:12 UTC] Hello, errors!
+[21-May-2023 20:28:12 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:30:30 UTC] Hello, errors!
+[21-May-2023 20:30:30 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:30:33 UTC] Hello, errors!
+[21-May-2023 20:30:33 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10
+[21-May-2023 20:31:24 UTC] Hello, errors!
+[21-May-2023 20:31:24 UTC] PHP Warning:  Undefined array key "level" in C:\xampp\htdocs\Piniors\libs\View.php on line 10

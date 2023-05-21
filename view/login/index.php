@@ -19,12 +19,12 @@
             <p class="primary-bg-text">To keep track on your dashboard please login with your personal info</p>
             <a href="/registro" class="loginbtn">Register now</a>
         </div>
-        <form action="" class="signup-form-container">
+        <form action="/login/login" method="post" class="signup-form-container">
             <p class="big-heading">Login to your account</p>
             <div class="login-form-contents">
-                <div class="text-fields email">
-                    <label for="email"><i class='bx bx-envelope' ></i></label>
-                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                <div class="text-fields username">
+                    <label for="username"><i class='bx bx-envelope' ></i></label>
+                    <input type="text" name="username" id="username" placeholder="Enter your username">
                 </div>
                 <div class="text-fields password">
                     <label for="password"><i class='bx bx-lock-alt' ></i></label>

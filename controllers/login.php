@@ -24,15 +24,17 @@ class Login extends Controller
     function login()
     {
         extract($_POST);
+        $username = $_POST["username"];
+        $password = $_POST["password"];
         
         if ($this->model->selectUser([
             'username' => $username,
             'password'=> md5($password)])) {
-                echo "Bienvenido de nuevo";
-                header("location: /dashboard");
+                header("location:/dashboard");
+
             } else {
-            header("location: /login");
-        }
+                // header("location:/login");
+            }
     }
 
     function logout(){
