@@ -16,12 +16,12 @@ $totalPreguntasPorJuego = $confi['totalPreguntas'];
 //Variables que contral la partida
 
 
-if(isset($_GET['siguiente'])){//Ya esta jugando
+if(isset($_POST['siguiente'])){//Ya esta jugando
     //Aumento 1 en las estadísticas
     aumentarRespondidas();
 
     //Controlar si la respuesta esta bien
-    if($_SESSION['respuesta_correcta']==$_GET['respuesta']){
+    if($_SESSION['respuesta_correcta']==$_POST['respuesta']){
         $_SESSION['correctas'] = $_SESSION['correctas'] + 1;
     }
 
@@ -63,7 +63,7 @@ if(isset($_GET['siguiente'])){//Ya esta jugando
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QUIZ GAME</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="/public/styles/quiz.css">
 </head>
 <body>
     <div class="container-juego" id="container-juego">
@@ -71,7 +71,7 @@ if(isset($_GET['siguiente'])){//Ya esta jugando
             <div class="categoria">
                 <?php echo obtenerNombreTema($preguntaActual['tema']) ?>
             </div>
-            <a href="index.php">Quizgame.com</a>
+            <a href="/quiz/home">Piniors</a>
         </header>
         <div class="info">
             <div class="estadoPregunta">
@@ -80,7 +80,7 @@ if(isset($_GET['siguiente'])){//Ya esta jugando
             <h3>
                 <?php echo $preguntaActual['pregunta']?>
             </h3>
-            <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="get">
+            <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
                 <div class="opciones">
                     <label for="respuesta1" onclick="seleccionar(this)" class="op1">
                         <p><?php echo $preguntaActual['opcion_a']?></p>

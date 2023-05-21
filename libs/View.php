@@ -6,7 +6,7 @@ class View {
         
     }
 
-    function render($name, $level=0, $redirect="login"){
+    function render($name, $level=0, $redirect="login/index"){
         if(($level == 0 && $_SESSION["level"] == 0) || $_SESSION["level"] ==(1||2)){
             include_once("view/".$name.".php");
         }else {
