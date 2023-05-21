@@ -8,11 +8,13 @@ class View {
 
     function render($name, $level=0, $redirect="login"){
         if(($level == 0 && $_SESSION["level"] == 0) || $_SESSION["level"] ==(1||2)){
-            include "view/".$name."/index.php";
+            include_once("view/".$name.".php");
         }else {
-            include "view/".$redirect."/index.php";
+            include_once("view/".$redirect.".php") ;
         }
     }
+
+    
 }
 
 

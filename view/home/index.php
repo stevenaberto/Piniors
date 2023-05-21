@@ -30,6 +30,7 @@
             <div class="menu">
                 <nav>
                     <ul>
+                        <li><a href="blog">Blog</a></li>
                         <li><a href="nosotros">Nosotros</a></li>
                         <li><a href="actividades">Actividades</a></li>
                         <li><a href="login">Inicia Sesion</a></li>
