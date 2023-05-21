@@ -5,7 +5,7 @@ class Home extends Controller
     function __construct()
     {
         parent::__construct();
-        $this->view->render("home");
+        $this->view->render("home/index");
     }
 
     function login(){
