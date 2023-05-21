@@ -12,7 +12,7 @@
     <main>
         <aside>
             <h1>Resuelve el siguiente programa</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est earum quas adipisci pariatur, temporibus incidunt odit corporis sunt ad beatae aliquam maiores porro accusamus eligendi. Labore nulla libero esse qui.</p>
+            <p>Realiza una calculadora de numeros primos que busque todos los numeros segun la cantidad indicada por los usuarios.</p>
         </aside>
         <div class="container">
             <textarea id="html" placeholder="HTML5">

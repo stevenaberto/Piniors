@@ -4,7 +4,7 @@ let js = document.getElementById("js")
 let preview = document.getElementById("preview")
 
 
-document.querySelector(".container").addEventListener("keydown", e =>{
+document.querySelector(".container").addEventListener("keyup", e =>{
     preview.srcdoc = `
     <!DOCTYPE html>
     <html lang="en">
