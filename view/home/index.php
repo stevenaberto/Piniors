@@ -19,29 +19,8 @@
 </head>
 
 <body>
-    <header>
-        <div class="header-content">
-            <div class="logo">
-                <img loadinglazy" src="public/favicon.svg" width="40px"><b></b>
-                <div class="conteiner">
-                    <h1><b>Piniors</b></h1>
-                </div>
-            </div>
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="blog">Blog</a></li>
-                        <li><a href="nosotros">Nosotros</a></li>
-                        <li><a href="actividades">Actividades</a></li>
-                        <li><a href="login">Inicia Sesion</a></li>
-                    </ul>
-                </nav>
-            </div>
-    </header>
-
-
+<?php include("view/includes/header.php") ?>
     <!--portada-->
-
     <div class="container-cover">
         <div class="container-info-cover">
             <h2><b>No seas un pino para siempre.</b></h2>

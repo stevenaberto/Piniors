@@ -1,0 +1,53 @@
+@import url("/public/styles/basic.css");
+section {
+    display: grid;
+    place-items: center;
+    background-color: var(--naranja-claro);
+    height: 100vh;
+    padding: 20%;
+    background-image: url("/public/img/pensamiento_creativo.png");
+    box-sizing: border-box;
+}
+
+#retos{
+    background-color: var(--verde);
+    background-position: top right;
+    color: white;
+}
+section a{
+    background-color: var(--verde-claro);
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    font-weight: 700;
+    font-size: 1em;
+    width: 100%;
+    margin-top:10px;
+    display:block;
+    color:white;
+    text-decoration: none;
+}
+
+#retos a{
+    background-color: var(--naranja-claro);
+}
+
+article{
+    background-color: #fff4;
+    backdrop-filter: blur(4px);
+    padding: 50px;
+    box-shadow:4px 2px 6px #fff2;
+    box-sizing: border-box;
+}
+#nav-btn{
+    position:fixed;
+    display: inline-block;
+    bottom:10px;
+    right: 10px;
+    background-color: var(--verde);
+    text-decoration: none;
+    color: var(--naranja-claro);
+    font-weight: 800;
+    padding:10px 5px;
+    border-radius: 5px;
+}

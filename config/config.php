@@ -2,19 +2,12 @@
 
 // Claves de desarrollador
 
-// define("URL", "http://localhost:3000/");
-
-
-
-//Claves de produccion
-
-// define("URL", "https://piniors.com/");
-
-// define('HOST', '154.49.245.52');
-// define("DB", "u896345182_Piniors");
-// define("USER", "u896345182_root");
-// define("PASSWORD", "M+Ye@42fq2p");
-// define("CHARSET", "utf8mb4");
+// URL=http://localhost:3000/
+// HOST=154.49.245.52
+// DB=u896345182_Piniors
+// USER=u896345182_root
+// PASSWORD=M+Ye@42fq2p
+// CHARSET=utf8mb4
 
 ?>
 

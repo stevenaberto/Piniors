@@ -7,54 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/favicon.svg">
     <title>Piniors - Actividades</title>
+    <link rel="stylesheet" href="/public/styles/actividades.css">
+    <script defer src="/public/script/change-button.js"></script>
 </head>
-<style>
-    @import url("/public/styles/basic.css");
 
-    section {
-        display: grid;
-        place-items: center;
-        background-color: var(--naranja-claro);
-        height: 100vh;
-        padding: 20%;
-        background-image: url("/public/img/pensamiento_creativo.png");
-        box-sizing: border-box;
-    }
-
-    #section-two {
-        background-color: var(--verde);
-        background-position: top right;
-        color: white;
-    }
-    a{
-        background-color: var(--verde-claro);
-        padding: 10px 5px;
-        border-radius: 5px;
-        border: 2px solid #fff;
-        font-weight: 700;
-        font-size: 1em;
-        width: 100%;
-        margin-top:10px;
-        display:block;
-        color:white;
-        text-decoration: none;
-    }
-    
-    #section-two a{
-        background-color: var(--naranja-claro);
-    }
-
-    article{
-        background-color: #fff4;
-        backdrop-filter: blur(4px);
-        padding: 50px;
-        box-shadow:4px 2px 6px #fff2;
-     box-sizing: border-box;
-    }
-</style>
 
 <body>
-    <section>
+<?php include("view/includes/header.php") ?>
+    <section id="quiz">
         <article>
             <h2>Quiz</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore obcaecati suscipit debitis, voluptate
@@ -63,7 +23,7 @@
                 <a href="/actividades">Jugar</a>
         </article>
     </section>
-    <section id="section-two">
+    <section id="retos">
         <article>
             <h2>Retos de programacion</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore obcaecati suscipit debitis, voluptate
@@ -72,7 +32,7 @@
                 <a href="/actividades">Jugar</a>
         </article>
     </section>
-    <section>
+    <section id="ahorcado">
         <article>
             <h2>Ahorcados</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore obcaecati suscipit debitis, voluptate
@@ -81,6 +41,7 @@
                 <a href="/actividades">Jugar</a>
         </article>
     </section>
+    <a id="nav-btn" href="#retos">Siguiente</a>
 </body>
 
 </html>
