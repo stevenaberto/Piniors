@@ -11,15 +11,11 @@
                     <ul>
                         <li><a href="/blog">Blog</a></li>
                         <li><a href="/actividades">Actividades</a></li>
-                        <?
+                        <?php
                             if(isset($_SESSION["username"])) {
-                                ?>
-                        <li><a href="/login">Inicia sesion</a></li>
-                                <?
+                                echo `<li><a href="/login">Inicia sesion</a></li>`;
                             }else{
-                                ?>
-                        <li><a href="/dashboard">Dashboard</a></li>
-                                <?
+                                echo `<li><a href="/dashboard">Dashboard</a></li>`;
                             }
                         ?>
                     </ul>
