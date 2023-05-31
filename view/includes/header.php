@@ -13,9 +13,13 @@
                         <li><a href="/actividades">Actividades</a></li>
                         <?php
                             if(isset($_SESSION["username"])) {
-                                echo `<li><a href="/login">Inicia sesion</a></li>`;
+                                ?>
+                        <li><a href="/login">Inicia sesion</a></li>
+                                <?php
                             }else{
-                                echo `<li><a href="/dashboard">Dashboard</a></li>`;
+                                ?>
+                        <li><a href="/dashboard">Panel</a></li>
+                                <?php
                             }
                         ?>
                     </ul>
