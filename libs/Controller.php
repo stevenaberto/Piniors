@@ -4,8 +4,12 @@ class Controller
 {
     public $view;
     public $model;
+    public $url;
     function __construct()
     {
+        $this->url =  $_SERVER["REQUEST_URI"];
+        $this->url = trim($this->url, "/");
+        $this->url = explode("/", $this->url);
         $this->view = new View();
     }
     function loadModel($model){
