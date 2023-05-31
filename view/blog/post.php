@@ -9,12 +9,12 @@
     <title>Post - Piniors</title>
 </head>
 <body>
-  <? include("view/includes/header.php") ?>
+  <?php include("view/includes/header.php") ?>
     <div class="app">
-        <? 
+        <?php 
              echo $Parsedown->text($text);
         ?>
     </div>
-    <? include('view/includes/footer.php') ?>
+    <?php include('view/includes/footer.php') ?>
 </body>
 </html>

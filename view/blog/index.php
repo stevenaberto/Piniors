@@ -8,7 +8,7 @@
   <link rel="shortcut icon" href="/public/favicon.svg" type="image/x-icon">   
 </head>
 <body>
-  <? include("view/includes/header.php") ?>
+  <?php include("view/includes/header.php") ?>
   <header class="hero">
     <h1 class="hero-title">Bienvenido a Piniors Blog</h1>
     <p class="hero-subtitle">Explora nuestras últimas publicaciones y encuentra inspiración para seguir desarrollando.</p>
@@ -52,7 +52,7 @@
     </section>
   </main>
 
-  <? include('view/includes/footer.php') ?>
+  <?php include('view/includes/footer.php') ?>
 
 
   <script src="script.js"></script>

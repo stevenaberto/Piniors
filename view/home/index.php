@@ -65,7 +65,7 @@
             </div>
         </div>
     </div>
-    <? include('view/includes/footer.php') ?>
+    <?php include('view/includes/footer.php') ?>
 </body>
 
 </html>
