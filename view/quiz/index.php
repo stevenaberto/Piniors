@@ -9,11 +9,11 @@ aumentarVisita();
 
 $categorias =  obtenerCategorias();
 
-if(isset($_GET['idCategoria'])){
+if(isset($_POST['idCategoria'])){
 
     $_SESSION['usuario'] = "usuario";
-    $_SESSION['idCategoria'] = $_GET['idCategoria'];
-    header("Location: jugar.php");
+    $_SESSION['idCategoria'] = $_POST['idCategoria'];
+    header("Location: /quiz/jugar");
 }
 
 ?>
@@ -36,13 +36,16 @@ if(isset($_GET['idCategoria'])){
                 QUIZ GAME
             </div>
             <h2>PON A PRUEBA TUS CONOCIMIENTOS!!</h2>
+            <div class="categoria">
+            <a id="back" href="/dashboard">Regresar</a>
+            </div>
         </div>
         <div class="right">
             <h3>Elige una categoría</h3>
             <div class="categorias">
                 <?php while ($cat = mysqli_fetch_assoc($categorias)):?>
                 <div class="categoria">
-                    <form action="<?php echo $_SERVER['PHP_SELF'] ?>" id="<?php echo $cat['tema']?>">
+                    <form action="/quiz/home/<?php echo $cat['tema'] ?>" id="<?php echo $cat['tema']?>" method="POST">
                         <input type="hidden" name="idCategoria" value="<?php echo $cat['tema']?>">
                         <a href="javascript:{}" onclick="document.getElementById(<?php echo $cat['tema']?>).submit(); return false;">
                             <?php echo obtenerNombreTema($cat['tema'])?>
@@ -53,7 +56,7 @@ if(isset($_GET['idCategoria'])){
             </div>
         </div>
         <footer>
-            <a href="admin/login">By 5to d2  <i class="fa-brands fa-youtube"></i> </a>
+            <a href="/admin/login">Piniors  <i class="fa-brands fa-youtube"></i> </a>
         </footer>
     </div>
 </body>

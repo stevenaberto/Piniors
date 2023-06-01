@@ -3,7 +3,7 @@
 
 //Si el usuario no esta logeado lo enviamos al login
 if (!$_SESSION['usuarioLogeado']) {
-    header("Location:login.php");
+    header("Location:/login");
 }
 
 include("funciones.php");

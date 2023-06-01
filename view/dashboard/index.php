@@ -26,29 +26,23 @@
                 </div>
             </ul>
         </aside>
-        <div class="container-data cont" id="dash-main">
-            <div id="account-data" class="data">
-                <img src="/public/img/bowl.jpg" width="250px" height="250px" alt="Foto de perfil">
-                <h2>Main</h2>
-            </div>
-        </div>
         <div class="container-data cont" id="dash-perfil">
             <div id="account-data" class="data">
-                <img src="/public/img/bowl.jpg" width="250px" height="250px" alt="Foto de perfil">
-                <h2>John Doe</h2>
+                <img src="<?php echo $_SESSION["data"]["img_profile"] ?>" width="250px" height="250px" alt="Foto de perfil">
+                <h2><?php echo $_SESSION["data"]["name"] . " #". $_SESSION["data"]["ID"] ?></h2>
                 <div class="box-inp username">
                     <label for="name">Nombre de pila</label>
-                    <input type="text" id="name">
+                    <input type="text" id="name" value="<?php echo($_SESSION["data"]["name"]) ?>">
                 </div>
                 <div class="box-inp username">
                     <label for="name">Nombre de usuario</label>
-                    <input type="text" id="username">
+                    <input type="text" id="username" value="<?php echo($_SESSION["data"]["username"]) ?>">
                 </div>
                 <div class="box-inp username">
                     <label for="name">Correo electronico</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" value="<?php echo($_SESSION["data"]["email"]) ?>">
                 </div>
-                <input type="submit" value="Guardar">
+                <button class="btn" type="submit">Actualizar datos</button>
             </div>
         </div>
         <div class="container-data cont" id="dash-cursos">

@@ -1,6 +1,6 @@
 
     let btns = document.querySelectorAll(".btn-nav");
-    let cont = document.querySelector("#dash-main");
+    let cont = document.querySelector("#dash-perfil");
   
     document.addEventListener("click", (e) => {
       if (e.target.classList == "btn-nav") {

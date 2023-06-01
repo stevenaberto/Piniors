@@ -9,6 +9,7 @@
     <title>Retos de programacion</title>
 </head>
 <body>
+<?php include("view/includes/header.php") ?>
     <main>
         <aside>
             <h1>Resuelve el siguiente programa</h1>

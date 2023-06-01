@@ -1,0 +1,78 @@
+@import url(basic.css);
+
+:root {
+    --verde-claro: rgb(96, 108, 56);
+    --verde: rgb(40, 54, 24);
+    --verde-transparente: rgba(253, 253, 253, 0.349);
+    --naranja-claro: #DDA15E;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .app {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 20px;
+    animation: fade-in 1s ease-in-out;
+    background-color: var(--verde-transparente);
+    border-radius: 8px;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  h1 {
+    color: var(--verde);
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: var(--verde-claro);
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    color: var(--verde-claro);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    animation: scale-in 1s ease-in-out;
+  }
+  
+  @keyframes scale-in {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  a {
+    color: var(--naranja-claro);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
