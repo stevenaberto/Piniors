@@ -2,42 +2,31 @@
         <div class="container2">
             <div class="row">
                 <div class="footer-col">
-                    <h4>Institucion</h4>
+                    <h4>Piniors</h4>
                     <ul>
-                        <li><a href="#">nuestros servicios </a></li>
-                        <li><a href="#">politica de privacidad </a></li>
-                        <li><a href="#">integrantes </a></li>
-                        <li><a href="#">afiliados </a></li>
+                        <li><a href="/">Pagina principal</a></li>
+                        <li><a href="/public/politicas.pdf">Politicas de privacidad</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>alguna ayuda </h4>
+                    <h4>Nuestras fuentes</h4>
                     <ul>
-                        <li><a href="#">Cod_php </a></li>
-                        <li><a href="#">Cod_html</a></li>
-                        <li><a href="#">Cod_css</a></li>
-                        <li><a href="#">Cod_java</a></li>
-                        <li><a href="#">Estructura_cod</a></li>
+                        <li><a href="https://github.com">Github</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+                        <li><a href="https://www.w3schools.com/default.asp">W3C</a></li>
+                        <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>Nosotros </h4>
-                    <ul>
-                        <li><a href="#">videos</a></li>
-                        <li><a href="#">sugerencias</a></li>
-                        <li><a href="#">progrmas</a></li>
-                        <li><a href="#">Direccion</a></li>
-                    </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>follow us</h4>
+                    <h4>Siguenos</h4>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100093116745063"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/piniorsdev"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/3f1ffa954b.js" crossorigin="anonymous"></script>
