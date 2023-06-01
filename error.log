@@ -1,46 +1,16 @@
-<<<<<<< HEAD
-[25-May-2023 20:25:08 Europe/Berlin] Hello, errors!
-[25-May-2023 20:25:08 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
-[25-May-2023 20:25:21 Europe/Berlin] Hello, errors!
-[25-May-2023 20:25:21 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
-[25-May-2023 20:25:35 Europe/Berlin] Hello, errors!
-[25-May-2023 20:25:35 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
-[25-May-2023 20:25:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Users\LENOVO THINKPAD\Piniors\models\loginmodel.php:37
-Stack trace:
-#0 C:\Users\LENOVO THINKPAD\Piniors\controllers\login.php(30): loginModel->selectUser(Array)
-#1 C:\Users\LENOVO THINKPAD\Piniors\libs\app.php(28): Login->login()
-#2 C:\Users\LENOVO THINKPAD\Piniors\index.php(22): App->__construct()
-#3 {main}
-  thrown in C:\Users\LENOVO THINKPAD\Piniors\models\loginmodel.php on line 37
-[25-May-2023 20:26:12 Europe/Berlin] Hello, errors!
-[25-May-2023 20:26:12 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
-[25-May-2023 20:26:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Users\LENOVO THINKPAD\Piniors\models\loginmodel.php:37
-Stack trace:
-#0 C:\Users\LENOVO THINKPAD\Piniors\controllers\login.php(30): loginModel->selectUser(Array)
-#1 C:\Users\LENOVO THINKPAD\Piniors\libs\app.php(28): Login->login()
-#2 C:\Users\LENOVO THINKPAD\Piniors\index.php(22): App->__construct()
-#3 {main}
-  thrown in C:\Users\LENOVO THINKPAD\Piniors\models\loginmodel.php on line 37
-[25-May-2023 20:26:18 Europe/Berlin] Hello, errors!
-[25-May-2023 20:26:18 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
-[25-May-2023 20:26:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Users\LENOVO THINKPAD\Piniors\models\loginmodel.php:37
-Stack trace:
-#0 C:\Users\LENOVO THINKPAD\Piniors\controllers\login.php(30): loginModel->selectUser(Array)
-#1 C:\Users\LENOVO THINKPAD\Piniors\libs\app.php(28): Login->login()
-#2 C:\Users\LENOVO THINKPAD\Piniors\index.php(22): App->__construct()
-#3 {main}
-  thrown in C:\Users\LENOVO THINKPAD\Piniors\models\loginmodel.php on line 37
-=======
->>>>>>> b53f929355711fb78c6106f72e95087da88b5661
-[01-Jun-2023 03:31:32 Europe/Berlin] Hello, errors!
-[01-Jun-2023 03:31:32 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
-[01-Jun-2023 03:31:37 Europe/Berlin] Hello, errors!
-[01-Jun-2023 03:31:37 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
-[01-Jun-2023 03:31:44 Europe/Berlin] Hello, errors!
-[01-Jun-2023 03:31:44 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
-[01-Jun-2023 03:31:49 Europe/Berlin] Hello, errors!
-[01-Jun-2023 03:31:49 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
-[01-Jun-2023 03:31:50 Europe/Berlin] Hello, errors!
-[01-Jun-2023 03:31:52 Europe/Berlin] Hello, errors!
-[01-Jun-2023 03:31:52 Europe/Berlin] Hello, errors!
-[01-Jun-2023 03:31:52 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
+[01-Jun-2023 04:20:38 Europe/Berlin] Hello, errors!
+[01-Jun-2023 04:20:38 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
+[01-Jun-2023 04:20:38 Europe/Berlin] PHP Warning:  include_once(view/archivo/index.php): Failed to open stream: No such file or directory in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 11
+[01-Jun-2023 04:20:38 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'view/archivo/index.php' for inclusion (include_path='\xampp\php\PEAR') in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 11
+[01-Jun-2023 04:21:20 Europe/Berlin] Hello, errors!
+[01-Jun-2023 04:21:20 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
+[01-Jun-2023 04:21:22 Europe/Berlin] Hello, errors!
+[01-Jun-2023 04:21:22 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
+[01-Jun-2023 04:21:22 Europe/Berlin] Hello, errors!
+[01-Jun-2023 04:21:22 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
+[01-Jun-2023 04:21:23 Europe/Berlin] Hello, errors!
+[01-Jun-2023 04:21:23 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
+[01-Jun-2023 04:21:25 Europe/Berlin] Hello, errors!
+[01-Jun-2023 04:21:25 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
+[01-Jun-2023 04:22:10 Europe/Berlin] Hello, errors!
+[01-Jun-2023 04:22:10 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
