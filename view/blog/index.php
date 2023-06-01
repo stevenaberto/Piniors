@@ -26,10 +26,10 @@
       </div>
 
       <div class="post">
-        <img src="post2.jpg" alt="Post 2" class="post-image">
-        <h3 class="post-title">Título del artículo destacado</h3>
-        <p class="post-excerpt">Breve descripción del artículo destacado. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href="#" class="post-link">Leer más</a>
+        <img src="/public/img/roadmap.jpg" alt="Post 2" class="post-image">
+        <h3 class="post-title">¿Como comenzar en el mundo de programacion?</h3>
+        <p class="post-excerpt">Si lo que deseas es iniciar aqui esta un paso a paso para comenzar, pero recuerda que estos temas son solo una guía inicial y que hay muchos otros aspectos y tecnologías por explorar en el desarrollo de software. </p>
+        <a href="/blog/posts/ruta" class="post-link">Leer más</a>
       </div>
     </section>
 
@@ -37,17 +37,17 @@
       <h2 class="section-title">Artículos recientes</h2>
 
       <div class="post">
-        <img src="post3.jpg" alt="Post 3" class="post-image">
-        <h3 class="post-title">Título del artículo reciente</h3>
-        <p class="post-excerpt">Breve descripción del artículo reciente. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href="#" class="post-link">Leer más</a>
+        <img src="https://www.oberlo.com/media/1603954182-seo-article-header.png?fit=max&fm=webp&w=1824" alt="Post 1" class="post-image">
+        <h3 class="post-title">Mejorando el posicionamiento web: Guía de SEO para desarrolladores web</h3>
+        <p class="post-excerpt">Aquí encontrarás algunos consejos y buenas prácticas para que tus proyectos web sean más amigables para los motores de búsqueda y obtengan una mejor visibilidad en línea.</p>
+        <a href="/blog/posts/seo" class="post-link">Leer más</a>
       </div>
 
       <div class="post">
-        <img src="post4.jpg" alt="Post 4" class="post-image">
-        <h3 class="post-title">Título del artículo reciente</h3>
-        <p class="post-excerpt">Breve descripción del artículo reciente. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href="#" class="post-link">Leer más</a>
+        <img src="/public/img/roadmap.jpg" alt="Post 2" class="post-image">
+        <h3 class="post-title">¿Como comenzar en el mundo de programacion?</h3>
+        <p class="post-excerpt">Si lo que deseas es iniciar aqui esta un paso a paso para comenzar, pero recuerda que estos temas son solo una guía inicial y que hay muchos otros aspectos y tecnologías por explorar en el desarrollo de software. </p>
+        <a href="/blog/posts/ruta" class="post-link">Leer más</a>
       </div>
     </section>
   </main>
