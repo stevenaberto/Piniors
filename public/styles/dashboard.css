@@ -134,3 +134,32 @@ aside.cont{
 #dash-main{
     display: grid;
 }
+
+#dash-actividades{
+    padding: 10px;
+    gap: 10px;
+    place-items: initial;
+    grid-template-rows: repeat(auto-fit, 1fr);
+    overflow-y: scroll;
+}
+
+#actividad{
+    background-color: rgb(40, 67, 40);
+    border-radius: 10px;
+    padding: 10px;
+    height: fit-content;
+    color: white;
+}
+
+#actividad>a{
+    display: block;
+    width: 100%;
+    padding-block: 5px;
+    margin-top: 5px;
+    background-color: #ff883a;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 1px solid #e7650d;
+    text-align: center;
+}

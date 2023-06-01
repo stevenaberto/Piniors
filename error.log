@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [25-May-2023 20:25:08 Europe/Berlin] Hello, errors!
 [25-May-2023 20:25:08 Europe/Berlin] PHP Warning:  Undefined array key "level" in C:\Users\LENOVO THINKPAD\Piniors\libs\View.php on line 10
 [25-May-2023 20:25:21 Europe/Berlin] Hello, errors!
@@ -29,3 +30,5 @@ Stack trace:
 #2 C:\Users\LENOVO THINKPAD\Piniors\index.php(22): App->__construct()
 #3 {main}
   thrown in C:\Users\LENOVO THINKPAD\Piniors\models\loginmodel.php on line 37
+=======
+>>>>>>> b53f929355711fb78c6106f72e95087da88b5661
