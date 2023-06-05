@@ -16,29 +16,25 @@
 <?php include("view/includes/header.php") ?>
     <section id="quiz">
         <article>
-            <h2>Quiz</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore obcaecati suscipit debitis, voluptate
-                nemo dolore doloremque. Repellendus, labore nam. Perspiciatis asperiores autem magnam rerum excepturi ex
-                consequatur adipisci aliquam ullam.</p>
-                <a href="/actividades">Jugar</a>
+            <h3>Quiz de programacion</h3>
+                        <p>Responde ante algunas preguntas de nivel facil a mediano que te haran pensar por un buen rato.</p>
+                        <a href="/quiz">Ver mas</a>
         </article>
     </section>
     <section id="retos">
         <article>
-            <h2>Retos de programacion</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore obcaecati suscipit debitis, voluptate
-                nemo dolore doloremque. Repellendus, labore nam. Perspiciatis asperiores autem magnam rerum excepturi ex
-                consequatur adipisci aliquam ullam.</p>
-                <a href="/actividades">Jugar</a>
+            <h2>Editor de codigo</h2>
+                        <p>Nuestra mayor herramienta para que puedas almacenar y ver tu codigo en tiempo real para que crees e innoves de forma online.
+                        </p>
+                        <a href="/challenges">Probar ahora mismo</a>
         </article>
     </section>
-    <section id="ahorcado">
+    <section id="memoria">
         <article>
-            <h2>Ahorcados</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore obcaecati suscipit debitis, voluptate
-                nemo dolore doloremque. Repellendus, labore nam. Perspiciatis asperiores autem magnam rerum excepturi ex
-                consequatur adipisci aliquam ullam.</p>
-                <a href="/actividades">Jugar</a>
+            <h2>Memoria</h2>
+                        <p>Juega el tipico juego de memoria, una y otra vez hasta conseguir recordar con mucha más facilidad todo tipo de cosas.
+                        </p>
+                        <a href="/memoria">Ver más</a>
         </article>
     </section>
     <a id="nav-btn" href="#retos">Siguiente</a>

@@ -9,7 +9,6 @@ ini_set('display_errors', FALSE); // Error/Exception display, use FALSE only in 
 ini_set('log_errors', TRUE); // Error/Exception file logging engine.
 
 ini_set("error_log", "error.log");
-error_log("Hello, errors!");
 
 require_once 'libs/database.php';
 require_once 'libs/Controller.php';
@@ -20,3 +19,6 @@ require_once 'libs/app.php';
 require_once 'config/dotenv.php';
 require_once 'config/config.php';
 $app = new App();
+
+?>
+

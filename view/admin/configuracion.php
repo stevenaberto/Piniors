@@ -27,7 +27,7 @@ if (isset($_GET['actualizar'])) {
     //actualizamos en la tabla configuracion
     if (mysqli_query($conn, $query)) { //Se actualizo correctamente
         $mensaje = "La configuración se actualizo correctamente";
-        header("Location: index.php");
+        header("Location: /quiz");
     } else {
         $mensaje = "No se pudo actualizar en la BD" . mysqli_error($conn);
     }
@@ -41,7 +41,7 @@ if (isset($_GET['eliminarPreguntas'])) {
     //eliminamos los datos de la tabla preguntas
     if (mysqli_query($conn, $query)) { //Se eliminó correctamente
         $mensaje = "Se eliminaron los datos de la tabla preguntas";
-        header("Location: index.php");
+        header("Location: /quiz");
     } else {
         $mensaje = "No se pudo eliminar en la BD" . mysqli_error($conn);
     }
@@ -57,7 +57,7 @@ if (isset($_GET['eliminarTodo'])) {
     if (mysqli_query($conn, $query1)) { //Se eliminó correctamente
         if (mysqli_query($conn, $query2)) { //Se eliminó correctamente
             $mensaje = "Se eliminaron las preguntas y las categorias";
-            header("Location: index.php");
+            header("Location: /quiz");
         } else {
             $mensaje = "No se pudo eliminar las categorias en la BD" . mysqli_error($conn);
         }
@@ -118,7 +118,7 @@ if (isset($_GET['eliminarTodo'])) {
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="/public/script/admin.js"></script>
     <script>paginaActiva(3);</script> 
 </body>
 </html>

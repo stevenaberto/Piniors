@@ -1,9 +1,10 @@
 <?php
 //datos del servidor
-$server		="localhost";
-$username	="root";
-$password	="";
-$bd			="bd_quiz";
+$server		=HOST;
+$username	=USER;
+$password	=PASSWORD;
+$bd			=DB;
+
 
 //creamos una conexión
 $conn = mysqli_connect($server, $username, $password, $bd);

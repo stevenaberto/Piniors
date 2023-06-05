@@ -30,6 +30,7 @@ if(isset($_POST['idCategoria'])){
     <title>QUIZ GAME</title>
 </head>
 <body>
+<?php include("view/includes/header.php") ?>
     <div class="container" id="cantainer">
         <div class="left">
             <div class="logo">
@@ -56,7 +57,7 @@ if(isset($_POST['idCategoria'])){
             </div>
         </div>
         <footer>
-            <a href="/admin/login">Piniors  <i class="fa-brands fa-youtube"></i> </a>
+            <a href="/login">Piniors  <i class="fa-brands fa-youtube"></i> </a>
         </footer>
     </div>
 </body>

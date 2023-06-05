@@ -4,7 +4,7 @@
 
 //Si el usuario no esta logeado lo enviamos al index
 if (!$_SESSION['usuario']) {
-    header("Location:index.php");
+    header("Location:/quiz");
 }
 
 //
@@ -37,7 +37,7 @@ if(isset($_POST['siguiente'])){//Ya esta jugando
         //Obetengo el nombre de la categoria y lo ponogo en una variable global
         $_SESSION['nombreCategoria'] = obtenerNombreTema($_SESSION['idCategoria']);
         $_SESSION['score'] = ($_SESSION['correctas'] * 100)/$totalPreguntasPorJuego;
-        header("Location: final.php");
+        header("Location: /quiz/final");
     }
 
 }else{//comenzó a jugar
@@ -66,6 +66,7 @@ if(isset($_POST['siguiente'])){//Ya esta jugando
     <link rel="stylesheet" href="/public/styles/quiz.css">
 </head>
 <body>
+<?php include("view/includes/header.php") ?>
     <div class="container-juego" id="container-juego">
         <header class="header">
             <div class="categoria">
@@ -80,7 +81,7 @@ if(isset($_POST['siguiente'])){//Ya esta jugando
             <h3>
                 <?php echo $preguntaActual['pregunta']?>
             </h3>
-            <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
+            <form action="/quiz/jugar" method="POST">
                 <div class="opciones">
                     <label for="respuesta1" onclick="seleccionar(this)" class="op1">
                         <p><?php echo $preguntaActual['opcion_a']?></p>

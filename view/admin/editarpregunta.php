@@ -8,6 +8,9 @@ if (!$_SESSION['usuarioLogeado']) {
 
 include("funciones.php");
 
+$url =  $_SERVER["REQUEST_URI"];
+$url = trim($url, "/");
+$url = explode("/", $url);
 /******************************************************* */
 //ACTUALIZAMOSS LA PREGUNTA
 if (isset($_POST['actualizar'])) {
@@ -15,7 +18,8 @@ if (isset($_POST['actualizar'])) {
     include("conexion.php");
 
     //tomamos los datos que vienen del formulario
-    $id_pregunta = $_POST['idPregunta'];
+    $id_pregunta = $url[2];
+    echo $id_pregunta;
     $id_tema = $_POST['tema'];
     $pregunta = htmlspecialchars($_POST['pregunta']);
     $opcion_a = htmlspecialchars($_POST['opcion_a']);
@@ -36,7 +40,7 @@ if (isset($_POST['actualizar'])) {
 }
 
 //Selecciono la pregunta que viene por POST
-$id = $_POST['idPregunta'];
+$id = $url[2];
 $pregunta = obtenerPreguntaPorId($id);
 
 //Se presióno el botón Nuevo Tema
@@ -44,7 +48,7 @@ if(isset($_POST['nuevoTema'])){
     //tomamos los datos que vienen del formulario
     $tema = $_POST['nombreTema'];
     $mensaje = agregarNuevoTema($tema);
-    header("Location: nuevapregunta.php");
+    header("Location: /admin/nuevapregunta");
 }
 
 //Obtengo todos los temas de la bd
@@ -142,6 +146,6 @@ $resltado_temas = obetenerTodosLosTemas();
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="/public/script/admin.js"></script>
 </body>
 </html>

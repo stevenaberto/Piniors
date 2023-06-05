@@ -3,27 +3,9 @@
 function obtenerConfiguracion()
 {
     include("conexion.php");
-    //Comprobamos si existe el registro 1 que mantiene la configuraciòn
-    //Añadimos un alias AS total para identificar mas facil
-    $query = "SELECT COUNT(*) AS total FROM config";
-    $result = mysqli_query($conn, $query);
-    $row = mysqli_fetch_assoc($result);
-
-
-    if ($row['total'] == '0') {
-        //No existe el registro 1 - DEBO INSERTAR el registro por primera vez
-        $query = "INSERT INTO config (id,usuario,password,totalPreguntas)
-        VALUES (NULL, 'admin', 'admin','3')";
-
-        if (mysqli_query($conn, $query)) { //Se insertó correctamente
-
-        } else {
-            echo "No se pudo insertar en la BD" .mysqli_errno($conn);
-        }
-    }
 
     //Selecciono el registro dela configuración
-    $query = "SELECT * FROM config  WHERE id='1'";
+    $query = "SELECT * FROM users  WHERE rol='admin'";
     $result = mysqli_query($conn, $query);
     $config = mysqli_fetch_assoc($result);
     return $config;
@@ -39,7 +21,7 @@ function agregarNuevoTema($tema){
     //insertamos en la tabla temas
     if (mysqli_query($conn, $query)) { //Se insertó correctamente
         $mensaje = "El fue agregado correctamente";
-        header("Location: index.php");
+        header("Location: /quiz");
     } else {
         $mensaje = "No se pudo insertar en la BD" . mysqli_errno($conn);
     }
@@ -61,6 +43,14 @@ function obtenerNombreTema($id){
     $tema = mysqli_fetch_array($result);
     
     return $tema['nombre'];
+}
+function obtenerIDTema($id){
+    include("conexion.php");
+    $query = "SELECT * FROM temas WHERE id = '$id'";
+    $result = mysqli_query($conn, $query);
+    $tema = mysqli_fetch_array($result);
+    
+    return $tema['id'];
 }
 
 function obetenerTodasLasPreguntas()

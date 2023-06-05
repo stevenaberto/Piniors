@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,9 @@
     <link rel="stylesheet" href="/public/styles/login.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
+    <?php include("view/includes/header.php"); ?>
     <div class="container">
         <div class="login-link">
             <div class="logo">
@@ -23,16 +26,19 @@
             <p class="big-heading">Login to your account</p>
             <div class="login-form-contents">
                 <div class="text-fields username">
-                    <label for="username"><i class='bx bx-envelope' ></i></label>
+                    <label for="username"><i class='bx bx-envelope'></i></label>
                     <input type="text" name="username" id="username" placeholder="Enter your username">
                 </div>
                 <div class="text-fields password">
-                    <label for="password"><i class='bx bx-lock-alt' ></i></label>
+                    <label for="password"><i class='bx bx-lock-alt'></i></label>
                     <input type="password" name="password" id="password" placeholder="Enter password">
                 </div>
             </div>
             <input type="submit" value="Login" class="nextPage">
-            </form>
+        </form>
+    </div>
+    <?php include("view/includes/footer.php"); ?>
 </body>
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
 </html>

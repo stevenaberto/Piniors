@@ -32,7 +32,7 @@ Objective-C++
     <title>Adivina el logo</title>
 </head>
 <body>
-    <h1>ADIVINA EL LOGO DE PROGRAMACION</h1>
+    <h1>ADIVINA EL LENGUAJE DE PROGRAMACION</h1>
 
     <!-- Pantalla inicial -->
     <div id="pantalla-inicial">

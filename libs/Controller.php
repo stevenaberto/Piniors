@@ -22,6 +22,9 @@ class Controller
             $this->model = new $modelName();
         }
     }
+    function render($name){
+        $this->view->render($name);
+    }
 }
 
 ?>

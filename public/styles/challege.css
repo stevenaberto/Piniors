@@ -7,7 +7,7 @@
 main{
     display: grid;
     grid-template-columns: .5fr 1.5fr;
-    
+    margin-top: 78px;
 }
 
 .container{
@@ -50,4 +50,16 @@ textarea::-webkit-scrollbar{
 iframe{
     padding: 0;
     background-color: white;
+}
+
+#btn-share{
+        background-color: var(--bg-verde-claro);
+        border: none;
+        border-radius: var(--radius-6);
+        color: var(--text-white);
+        font-size: var(--fontSize-7);
+        font-weight: var(--weight-semiBold);
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color var(--transition-1);
 }

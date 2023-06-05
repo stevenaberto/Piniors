@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('basic.css');
 *{
     box-sizing: border-box;
-    font-family: 'Mochiy Pop One';
+    font-family: 'Poppins';
 }
 body{
     background: url(/public/img/pino_3.jpg);

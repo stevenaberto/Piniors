@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="<?php echo constant("URL") ?>public/styles/home.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <link rel="shortcut icon" href="<?php echo constant("URL") ?>public/favicon.svg" type="image/x-icon">
+        <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">   
+
     <meta property="og:title" content="Piniors">
 <meta property="og:type" content="page" />
 <meta property="og:description" content="No seas un pino para siempre!">
@@ -33,21 +34,19 @@
             <div class="container card1">
                 <div class="card">
                     <div class="contenido">
-                        <h3>Preguntale al sabio</h3>
-                        <p>Aprende y crea con la mejor experiencia para todos aquellos que desean aprender del
-                            desarrollo de software, tecnologia, comunicaciones y muchisimas cosas mas.</p>
-                        <a href="servios al cliente.html">Ver mas</a>
+                        <h3>Quiz de programacion</h3>
+                        <p>Responde ante algunas preguntas de nivel facil a mediano que te haran pensar por un buen rato.</p>
+                        <a href="/quiz">Ver mas</a>
                     </div>
                 </div>
             </div>
             <div class="container card2">
                 <div class="card">
                     <div class="contenido">
-                        <h3>Retos de programacion</h3>
-                        <p>Pensamiento logico? creativo? juegos? pues si, esto y mas en divertido juegos logicos
-                            para que desarroyes tu analisis y resolucion de problema .
+                        <h3>Memoria</h3>
+                        <p>Juega el tipico juego de memoria, una y otra vez hasta conseguir recordar con mucha más facilidad todo tipo de cosas.
                         </p>
-                        <a href="Como te sientes.html">Retame!!</a>
+                        <a href="/memoria">Ver más</a>
                     </div>
 
                 </div>
@@ -55,11 +54,10 @@
             <div class="container card3">
                 <div class="card">
                     <div class="contenido">
-                        <h3>Retos de programacion</h3>
-                        <p>Pensamiento logico? creativo? juegos? pues si, esto y mas en divertido juegos logicos
-                            para que desarroyes tu analisis y resolucion de problema .
+                        <h3>Editor de codigo</h3>
+                        <p>Nuestra mayor herramienta para que puedas almacenar y ver tu codigo en tiempo real para que crees e innoves de forma online.
                         </p>
-                        <a href="Como te sientes.html">Retame!!</a>
+                        <a href="/challenges">Probar ahora mismo</a>
                     </div>
                 </div>
             </div>

@@ -2,7 +2,7 @@
 
 
 //Si el usuario no esta logeado lo enviamos al login
-if (!$_SESSION['usuarioLogeado']) {
+if (!$_SESSION['username']) {
     header("Location:/login");
 }
 
@@ -45,7 +45,7 @@ $categorias =  obtenerCategorias();
 
                     <?php while ($cat = mysqli_fetch_assoc($categorias)):?>
                     <div class="card gradiente1">
-                        <span class="tema"><?php echo obtenerNombreTema($cat['tema']);?></span>
+                        <span id="<?php echo obtenerIDTema($cat['tema']);?>" class="tema"><?php echo obtenerNombreTema($cat['tema']);?></span>
                         <span class="cantidad"> <?php echo totalPreguntasPorCategoria($cat['tema']);?></span>
                         <span> Preguntas</span>
                     </div>
@@ -54,7 +54,33 @@ $categorias =  obtenerCategorias();
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="/public/script/admin.js"></script>
     <script>paginaActiva(0);</script>   
+    <script>
+        document.getElementById("dashboard")
+        .addEventListener("dblclick", (e)=>{
+            if (e.target.classList == "tema" && e.target.textContent != "Total") {
+                e.target.contentEditable = true
+                e.target.focus()
+            
+            }
+        })
+        document.getElementById("dashboard")
+        .addEventListener("focusout", (e)=>{
+            if (e.target.classList == "tema") {
+                let nombre = e.target.textContent.trim()
+                nombre = nombre.charAt(0).toUpperCase() + nombre.slice(1);
+                let id = e.target.id
+                let body = new FormData()
+                body.append("nombre", nombre)
+                body.append("id", id)
+                fetch("/admin/cambiarNombreTema", {
+                    method: "POST",
+                    body
+                })
+            
+            }
+        })
+    </script>
 </body>
 </html>

@@ -78,7 +78,7 @@ $resultado_preguntas = obetenerTodasLasPreguntas();
             <button onclick="cerrarEliminar()" class="btn">Cancelar</button>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="/public/script/admin.js"></script>
     <script>paginaActiva(2);</script>   
 </body>
 </html>

@@ -21,7 +21,7 @@
             <p class="primary-bg-text">To keep track on your dashboard please login with your personal info</p>
             <a href="/login" class="loginbtn">Login</a>
         </div>
-        <form action="/login/registro" class="signup-form-container">
+        <form action="/registro/registro" metHod="POST" class="signup-form-container" enctype="multipart/form-data">
             <p class="big-heading">Crea cuenta</p>
             <div class="progress-bar">
                 <div class="stage">
@@ -41,12 +41,12 @@
                 <div class="stage1-content">
                     <div class="button-container">
                         <div class="text-fields fname">
-                            <label for="fname"><i class='bx bx-user'></i></label>
-                            <input type="text" name="fname" id="fname" placeholder="Enter your first name">
+                            <label for="name"><i class='bx bx-user'></i></label>
+                            <input type="text" name="name" id="fname" placeholder="Enter your name">
                         </div>
                         <div class="text-fields lname">
-                            <label for="lname"><i class='bx bx-user'></i></label>
-                            <input type="text" name="lname" id="lname" placeholder="Enter your last name">
+                            <label for="username"><i class='bx bx-user'></i></label>
+                            <input type="text" name="username" id="lname" placeholder="Enter your username">
                         </div>
                     </div>
                     <div class="text-fields email">

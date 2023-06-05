@@ -18,6 +18,15 @@
     backdrop-filter: blur(10px);
     background-color: #ffffff59;
 }
+[for="photo"] img{
+    border-radius: 50%;
+}
+[for="photo"]{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
 .btn-nav{
     list-style: none;
     background-color: rgba(255, 255, 255, 0.83);
@@ -37,7 +46,6 @@
     backdrop-filter: opacity(.6);
     scale: .96;
 }
-
 .btn-nav.active{
     background-color: #a4e1f4;
     font-weight: 600;
@@ -91,7 +99,7 @@ ul{
     border-radius: 50%;
 }
 
-div#account-data {
+#account-data {
     display: grid;
     place-items: center;
     padding: 20px;

@@ -6,6 +6,7 @@ class Memoria extends Controller
     {
         parent::__construct();
         $this->view->render("memoria/index");
+        $this->loadModel("activities");
     }
 
 }

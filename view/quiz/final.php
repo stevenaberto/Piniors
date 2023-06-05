@@ -4,7 +4,7 @@
 
 //Si el usuario no esta logeado lo enviamos al index
 if (!$_SESSION['usuario']) {
-    header("Location:index.php");
+    header("Location:/quiz");
 }
 //Aumentamos la estadistica
 include("admin/funciones.php");
@@ -20,11 +20,11 @@ aumentarCompletados();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="estilo.css">
-    <title>QUIZ GAME</title>
+    <link rel="stylesheet" href="/public/styles/quiz.css">
+    <title>Piniors - QUIZ GAME</title>
 </head>
 <body>
-
+<?php include("view/includes/header.php") ?>
     <div class="container-final" id="container-final">
         <div class="info">
             <h2>RESULTADO FINAL</h2>
@@ -47,10 +47,19 @@ aumentarCompletados();
                 </div>
             </div>
 
-            <a href="index.php">Ir al Menú</a>
-
+            <a href="/quiz">Ir al Menú</a>
+            <span hidden id="score-php"><?php echo $_SESSION['score'] ?></span>
         </div>
     </div>
     <script src="juego.js"></script>
+    <script>
+        let score =document.getElementById("score-php").textContent
+        let body = new FormData()
+        body.append("score", score)
+        fetch('/login/updateScore',{
+            method: "POST",
+            body
+        })
+    </script>
 </body>
 </html>

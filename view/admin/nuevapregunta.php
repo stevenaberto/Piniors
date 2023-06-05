@@ -137,7 +137,7 @@ $resltado_temas = obetenerTodosLosTemas();
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="/public/script/admin.js"></script>
     <script>paginaActiva(1);</script>
 </body>
 </html>
